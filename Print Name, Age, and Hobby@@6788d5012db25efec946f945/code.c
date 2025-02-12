@@ -8,5 +8,6 @@ int main(){
     scanf("%d",&b);
     scanf("%s",&c);
     printf("Name: %s\nAge: %d\nHobby: %s",a,b,c);
+    
     return 0;
 }
