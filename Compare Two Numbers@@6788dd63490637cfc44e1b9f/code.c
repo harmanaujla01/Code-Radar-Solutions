@@ -1,12 +1,17 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if(a<60){
-        printf("Not Eligible");
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a==b){
+        printf("Equal");
+    }
+    else if(a>b){
+        printf("First");
     }
     else{
-        printf("Eligible");
+        printf("Second");
     }
+    return 0;
+    
 }
