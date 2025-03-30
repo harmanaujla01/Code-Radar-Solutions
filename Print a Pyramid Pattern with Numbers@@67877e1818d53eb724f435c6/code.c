@@ -11,7 +11,7 @@ int main(){
 
         }
         for(int j=1;j<=nst;j++){
-            printf("%d",nst);
+            printf("%d",j);
 
         }
         nst=nst+2;
