@@ -14,13 +14,12 @@ int main(){
         for(int j=1;j<=nst;j++){
             printf("*");
         }
-        if(i<n){
-            nsp--;
-            nst+=2;
-        }
-        else{
-            nsp++;
-            nst-=2;
+        if(i <= n) {
+            spaces = n - i;      // For upper part
+            stars = 2 * i - 1;   // For upper part
+        } else {
+            spaces = i - n;      // For lower part
+            stars = 2 * (2 * n - i) - 1;  // For lower part
         }
         printf("\n");
     }
