@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int nsp=1;
     int nst=1;
-    int ml=n/2+1;
+    int ml=(n/2)+1;
     for(int i=1;i<=n;i++){
         for(int k=1;k<=nsp;k++){
             printf(" ");
