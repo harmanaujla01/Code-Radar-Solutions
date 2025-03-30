@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void fibonacci(int n){
+void fibonacciSeries(int n){
     
     int a=0;
     int b=1;
