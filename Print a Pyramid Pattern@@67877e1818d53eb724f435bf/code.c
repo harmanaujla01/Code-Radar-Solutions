@@ -13,7 +13,7 @@ int main(){
             printf("*");
             
         }
-        nst+2;
+        nst=nst+2;
         printf("\n");
     }
     return 0;
