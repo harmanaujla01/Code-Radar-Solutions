@@ -5,9 +5,10 @@ int main(){
     int n,s;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        s=sum(i)
+        s=sum(i);
         printf("%d",s);
 
 
     }
+    return 0;
 }
