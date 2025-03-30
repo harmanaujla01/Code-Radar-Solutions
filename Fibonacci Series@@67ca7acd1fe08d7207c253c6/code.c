@@ -1,8 +1,7 @@
 // Your code here...
 #include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
+void fibonacci(){
+    
     int a=0;b=1;next;
     for(int i=1;i<=n;i++){
         if(i==1){
@@ -20,6 +19,13 @@ int main(){
         }
 
         printf("\n");
-        return 0;
+        
     }
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    fibonacci(n);
+    return 0;
+
 }
