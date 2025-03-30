@@ -4,7 +4,7 @@ int main(){
     int n;
     scanf("%d*2",&n);
     
-    int nsp=n/2;
+    int nsp=n;
     int nst=1;
     
     for(int i=1;i<=2*n-1;i++){
@@ -15,11 +15,11 @@ int main(){
             printf("*");
         }
         if(i<n){
-            nsp--;
+            nsp=--;
             nst+=2;
         }
         else{
-            nsp++;
+            nsp=++;
             nst-=2;
         }
         printf("\n");
