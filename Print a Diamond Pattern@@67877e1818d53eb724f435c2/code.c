@@ -1,27 +1,24 @@
-// Your code here...
+// // Your code here...
 #include<stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
-    
-    int nsp=n;
-    int nst=1;
-    
-    for(int i=1;i<=2*n-1;i++){
-        for(int k=1;k<=nsp;k++){
+    for(int i=1;i<=n;i++){
+
+        for(int nsp=1;nsp<=n-i;nsp++){
             printf(" ");
         }
-        for(int j=1;j<=nst;j++){
+        for(int nst=1;nst<=2*-1;nst++){
             printf("*");
         }
-        if(i <= n) {
-            nsp = n - i;      // For upper part
-            nst = 2 * i - 1;   // For upper part
-        } else {
-            nsp = i - n;      // For lower part
-            nst = 2 * (2 * n - i) - 1;  // For lower part
-        }
-        printf("\n");
     }
-    return 0;
+    for(int i=n-1;i>=1;i--){
+        for(int nsp=1;nsp<n-i;nsp++){
+            printf(" ");
+
+        }
+        for(int nst=1;nst<=2*i-1;nst++){
+            printf("*");
+        }
+    }
 }
