@@ -15,11 +15,11 @@ int main(){
             printf("*");
         }
         if(i<n){
-            nsp=--;
+            nsp--;
             nst+=2;
         }
         else{
-            nsp=++;
+            nsp++;
             nst-=2;
         }
         printf("\n");
