@@ -3,8 +3,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int nsp=1;
-    int nst=1;
+    int nsp;
+    int nst;
     int ml=(n/2)+1;
     for(int i=1;i<=n;i++){
         for(int k=1;k<=nsp;k++){
