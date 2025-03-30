@@ -15,11 +15,11 @@ int main(){
         }
         if(n<ml){
             nsp--;
-            nst+=i;
+            nst+=2;
         }
         else{
             nsp++;
-            nst-=i;
+            nst-=2;
         }
         printf("\n");
     }
