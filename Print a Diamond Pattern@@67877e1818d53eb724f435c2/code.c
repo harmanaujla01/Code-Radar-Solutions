@@ -7,7 +7,7 @@ int main(){
     int nsp=n/2;
     int nst=1;
     
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=2*n-1;i++){
         for(int k=1;k<=nsp;k++){
             printf(" ");
         }
