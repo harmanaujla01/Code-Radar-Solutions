@@ -15,11 +15,11 @@ int main(){
             printf("*");
         }
         if(i <= n) {
-            spaces = n - i;      // For upper part
-            stars = 2 * i - 1;   // For upper part
+            nsp = n - i;      // For upper part
+            nst = 2 * i - 1;   // For upper part
         } else {
-            spaces = i - n;      // For lower part
-            stars = 2 * (2 * n - i) - 1;  // For lower part
+            nsp = i - n;      // For lower part
+            nst = 2 * (2 * n - i) - 1;  // For lower part
         }
         printf("\n");
     }
