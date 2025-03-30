@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    scanf("%d",&2*n);
+    scanf("%d",&n*2);
     
     int nsp=n/2;
     int nst=1;
