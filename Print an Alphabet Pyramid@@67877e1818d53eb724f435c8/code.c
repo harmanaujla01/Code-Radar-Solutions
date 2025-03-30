@@ -13,9 +13,10 @@ int main(){
         char ch=(char)d;
         for(int j=1;j<=i;j++){
             printf("%c ",ch);
+            a++;
         }
        
-        a++;
+        
         printf("\n");
     }
 }
