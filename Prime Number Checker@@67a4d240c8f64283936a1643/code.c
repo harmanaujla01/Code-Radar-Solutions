@@ -3,6 +3,7 @@
 
 // Function to check if a number is prime
 int isPrime(num){
+    int num;
     if(num<=1){
         return 0;
 
