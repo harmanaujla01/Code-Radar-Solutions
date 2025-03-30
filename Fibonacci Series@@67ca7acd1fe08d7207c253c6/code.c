@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void fibonacci(){
+void fibonacci(int n){
     
     int a=0;b=1;next;
     for(int i=1;i<=n;i++){
