@@ -11,7 +11,7 @@ int main(){
 
         }
         for(int j=1;j<=nst;j++){
-            printf("*");
+            printf("%d",nst);
 
         }
         nst=nst+2;
